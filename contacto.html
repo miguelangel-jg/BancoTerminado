@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="shortcut icon" href="imagenes/contacto.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div>
+            <section>
+                <img src="imagenes/icono-banco.png">
+            </section>
+            <h1>UtreBank</h1>
+        </div>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+    <main>
+        
+        <form>
+            <h2>Formulario de contato:</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text">
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" >
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea rows="4" ></textarea>
+
+            <button onclick="enviarFormulario()">Enviar</button>
+        </form>
+
+    </main>
+    <script>
+        function enviarFormulario(){
+            alert("Formulario Enviado. Gracias por usar UtreBank");
+        }
+    </script>
+</body>
+
+</html>

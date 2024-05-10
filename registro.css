@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/fondo-registro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: #28a745;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+}
+header nav a {  
+    padding: 20px;
+    border-right: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav a:hover {  
+    color: blue;
+    text-decoration: underline;
+}
+main {
+    margin-top: 60px;
+}
+main section{
+    background-color: white;
+    margin: 0 auto;
+    width: 25%;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+main section div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+section label{
+    display: inline-block; /* Hacer que el label sea inline-block */
+    vertical-align: middle; /* Alinear verticalmente con el input */
+}
+section img{
+    width: 15px;
+    height: auto;
+    margin-left: 5px;
+}
+section input{
+    width: 275px;
+}
+section span{
+    min-width: 120px; /* Establecer un ancho mínimo para todas las etiquetas span */
+    display: inline-block;
+}
+section span{
+    margin-top: 10px;
+   margin-bottom: 10px;
+}
+section h3{
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid black;
+}
+section button{  
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+}
+section div select{
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+#registro{
+    margin-top: 20px;
+    text-align: end;
+}
+#registro a{
+    color: blue;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+#registro a:hover{
+    color: gray;
+}

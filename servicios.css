@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url();
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #28a745;
+}
+header img{
+    margin-top: 20px;
+    width: 100px;
+}
+header h1{
+    color: whitesmoke;
+    padding: 20px;
+}
+header div{
+    display: flex;
+}
+nav{
+    width: 60%;
+   display: flex;
+   justify-content: space-around;
+}
+nav a{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a img{
+    margin: 0;
+    width: 30px;
+}
+nav a:hover{
+    color: blue;
+}
+
+.contenedor{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;   
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.contenedor h1{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor div{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color:  #28a745;
+    border: 3px solid black;
+}
+.contenedor div:hover{
+    box-shadow: 10px 5px 10px gray;
+}
+.contenedor div section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.contenedor div section h2{
+    margin: 0;
+    padding: 5px;
+}
+.contenedor div section p{
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor div section img{
+    width: 400px;
+}

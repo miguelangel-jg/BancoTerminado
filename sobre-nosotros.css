@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #28a745;
+}
+header img{
+    margin-top: 20px;
+    width: 100px;
+}
+header h1{
+    color: whitesmoke;
+    padding: 20px;
+}
+header div{
+    display: flex;
+}
+nav{
+    width: 60%;
+   display: flex;
+   justify-content: space-around;
+}
+nav a{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a img{
+    margin: 0;
+    width: 30px;
+}
+nav a:hover{
+    color: blue;
+}
+#botones{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    width: 50%;
+}
+#botones section{
+    display: flex;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+#botones section img{
+    width: 20px;
+    height: 20px;
+}
+#botones section a{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+#botones section a:hover{
+    color: white;
+}
+#botones section:hover{
+    background-color: blue;
+    color: white;
+}
+
+main div{
+    width: 70%;
+    margin: 0 auto;
+}
+main div h2{
+    text-align: center;
+    color: #28a745;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 30px;
+}
+main div ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+main div ul li{
+    margin-top: 30px;
+}
+.imagen
+{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+}

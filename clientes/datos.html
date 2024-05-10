@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DatosCliente</title>
+    <link rel="stylesheet" href="../clientes.css">
+</head>
+<style>body{background-color: #5fbf77;}</style>
+<body>
+    <header>
+        <div>
+          <section>
+            <img src="../imagenes/icono-banco.png">
+          </section>
+          <h1> <a href="../index.html">UtreBank</a></h1>
+        </div>
+        <nav>
+          <a href="../index.html">INICIO</a>
+          <a href="../servicios.html">SERVICIOS</a>
+          <a href="../contacto.html">CONTACTO</a>
+          <a href="../clientes.html">AREA CLIENTES</a>
+        </nav> 
+      </header>
+
+
+    <div id="datosClientes">
+        <h1>Datos del cliente</span></h1>
+        <p>Nombre: <span id="nombreUsuario"></span></p>
+        <p>Apellidos: <span id="apellidos"></span></p>
+        <p>Telefono: <span id="telefono"></span></p>
+        <p>Email: <span id="email"></span></p>
+        <p>DNI: <span id="dni"></span></p>
+        <p>Saldo: <span id="saldo"></span></p>
+
+        <table id="tablaTransacciones">
+          <thead>
+            <tr>
+              <th>Concepto</th>
+              <th>Cantidad</th>
+              <th>Tipo</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpoTablaTransacciones">
+            
+          </tbody>
+        </table>
+        
+
+        
+        <button onclick="cerrarSesion()" id="cerrarSesion">Cerrar Sesion</button>
+
+
+
+    </div>
+
+
+    <script src="cargaDatos.js">
+    </script>
+</body>
+</html>

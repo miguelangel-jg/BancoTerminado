@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencia</title>
+    <link rel="stylesheet" href="../clientes.css">
+</head>
+<body>
+    <header>
+        <div>
+          <section>
+            <img src="../imagenes/icono-banco.png">
+          </section>
+          <h1>UtreBank</h1>
+        </div>
+        <nav>
+          <a href="../index.html">INICIO</a>
+          <a href="../servicios.html">SERVICIOS</a>
+          <a href="../contacto.html">CONTACTO</a>
+          <a href="../sobre-nosotros.html">SOBRE NOSOTROS</a>
+          <a href="../clientes.html">AREA CLIENTES</a>
+        </nav>  
+      </header>
+      
+<div id="transferencia">
+    <h2>Realizar una transferencia</h2>
+    <label for="nombre">Nombre del destinatario:</label>
+    <input type="text" >
+  
+    <label for="numero_cuenta">Email del destinatario:</label>
+    <input type="text" placeholder="Ej: banco@banco.com" id="emailDest">
+  
+    <label for="cantidad">Cantidad a transferir(€):</label>
+    <input type="number" id="cantTrans">
+  
+    <label for="concepto">Concepto de la transferencia:</label>
+    <textarea placeholder="Ej: Pago Montaje Mesa"></textarea>
+  
+    <button onclick="realizarTransferencia()">Realizar Transferencia</button>
+  </div>
+  
+  <script src="datosCliente.js">
+    
+  </script>
+</body>
+</html>

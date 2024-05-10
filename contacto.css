@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #28a745;
+}
+header img{
+    margin-top: 20px;
+    width: 100px;
+}
+header h1{
+    color: whitesmoke;
+    padding: 20px;
+}
+header div{
+    display: flex;
+}
+nav{
+    width: 60%;
+   display: flex;
+   justify-content: space-around;
+}
+nav a{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a img{
+    margin: 0;
+    width: 30px;
+}
+nav a:hover{
+    color: blue;
+}
+main{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+form:hover{
+    background-color: lightcyan;
+}
+form h2{
+    text-align: center;
+    margin: 10px;
+    color: #28a745;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form input,label{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form button{
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-size: 18px;
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid black;    
+    margin-top: 20px;
+    padding: 5px;
+}
+form button:hover{
+    background-color: #28a745;
+}

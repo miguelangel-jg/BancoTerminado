@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../clientes.css">
+    <link rel="shortcut icon" href="../imagenes/bizum-icono.png" type="image/x-icon">
+    <title>BIZUM</title>
+</head>
+<body>
+    <header>
+        <div>
+          <section>
+            <img src="../imagenes/icono-banco.png">
+          </section>
+          <h1>UtreBank</h1>
+        </div>
+        <nav>
+          <a href="../index.html">INICIO</a>
+          <a href="../servicios.html">SERVICIOS</a>
+          <a href="../contacto.html">CONTACTO</a>
+          <a href="../sobre-nosotros.html">SOBRE NOSOTROS</a>
+          <a href="../clientes.html">AREA CLIENTES</a>
+        </nav>  
+      </header>
+   
+      <div id="bizum">
+        <h2>Realizar un bizum</h2>
+        <label>Nombre:</label>
+        <input type="text">
+      
+        <label>Teléfono:</label>
+        <input type="tel" id="telf">
+      
+        <label>Cantidad(€):</label>
+        <input type="number" id="cantB">
+
+        <button onclick="bizum()">Realizar Bizum</button>
+        
+      </div>
+
+    <script src="datosCliente.js">
+     
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="registro.css">
+  <link rel="shortcut icon" href="imagenes/icono-registro.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="servicios.html">SERVICIOS</a>
+      <a href="registro.html">HACERSE CLIENTE</a>
+      <a href="contacto.html">CONTACTO</a>
+      <a target="_blank" href="inicio-sesion.html">ÁREA CLIENTE</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h3>REGISTRO</h3>
+
+      <div>
+        <span>Nombre:</span>
+
+        <label for=""><input placeholder="Nombre" type="text" id="nombre">
+          <img src="imagenes/icono-contacto.png" alt=""></label>
+        </label>
+      </div>
+
+      <div>
+        <span>Apellidos:</span>
+        <label for=""><input placeholder="Apellidos" type="text" id="apellidos">
+          <img src="imagenes/apellidos.png" alt=""></label>
+        </label>
+      </div>
+      <div>
+        <span>Telefono:</span>
+        <label for="">
+          <input placeholder="Telefono" type="text" id="telefono">
+          <img src="imagenes/apellidos.png" alt=""></label>
+        </label>
+      </div>
+      <div>
+        <span>DNI:</span>
+        <label for="">
+          <input placeholder="DNI. Ej: 12345678A" type="text" id="dni">
+          <img src="imagenes/dni-icono.png" alt=""></label>
+        </label>
+      </div>
+      <div>
+        <span>Email</span>
+        <label for="">
+          <input placeholder="Email" type="email" id="email">
+          <img src="imagenes/email.icono.png" alt=""></label>
+        </label>
+      </div>
+      <div>
+        <span>Contraseña:</span>
+        <label for="">
+          <input type="password" placeholder="Contraseña" id="password">
+          <img src="imagenes/password-icono.png" alt=""></label>
+        </label>
+      </div>
+      <div>
+
+        <span>Repita Contraseña:</span>
+        <label for="">
+          <input type="password" placeholder="Contraseña" id="password2">
+          <img src="imagenes/password-icono.png" alt=""></label>
+        </label>
+      </div>
+
+      <div>
+        <span>Tipo de cuenta bancaria:</span>
+        <select name="tipo_cuenta" id="tCuenta">
+          <option value="normal">Cuenta Bancaria Normal</option>
+          <option value="joven">Cuenta Joven</option>
+          <option value="ahorro">Cuenta de Ahorro</option>
+          <option value="pensionista">Cuenta Pensionista</option>
+        </select>
+      </div>
+      <button id="registrarse" onclick="registrarse()">REGISTRARSE</button>
+    </section>
+  </main>
+
+  <script src="registro.js"></script>
+</body>
+
+</html>
